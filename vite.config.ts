@@ -8,7 +8,7 @@ export default defineConfig({
             formats: ['iife'],
             fileName: () => 'dodo-checkout.js',
         },
-        outDir: '../demo/public',
-        emptyOutDir: false,
+        outDir: 'dist',
+        emptyOutDir: true,
     },
 })
